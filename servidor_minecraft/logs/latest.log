@@ -1,0 +1,888 @@
+[13Dec2025 02:52:10.450] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[13Dec2025 02:52:10.455] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.9 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[13Dec2025 02:52:14.664] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[13Dec2025 02:52:14.819] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MSP-2.6/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[13Dec2025 02:52:15.301] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSP-2.6/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[13Dec2025 02:52:15.303] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSP-2.6/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[13Dec2025 02:52:15.304] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSP-2.6/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[13Dec2025 02:52:15.305] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSP-2.6/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[13Dec2025 02:52:15.723] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
+[13Dec2025 02:52:18.096] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[13Dec2025 02:52:18.184] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[13Dec2025 02:52:18.237] [main/WARN] [mixin/]: Reference map 'mixins.block_factorys_bosses.refmap.json' for mixins.block_factorys_bosses.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 02:52:18.238] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 02:52:18.396] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 02:52:19.286] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[13Dec2025 02:52:27.025] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[13Dec2025 02:52:27.142] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.15...
+[13Dec2025 02:52:27.274] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[13Dec2025 02:52:27.275] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[13Dec2025 02:52:29.452] [modloading-worker-0/INFO] [com.muhammedesadcomert.protectmobsfromdaylight.forge.ProtectMobsFromDayLight/]: HELLO FROM COMMON SETUP
+[13Dec2025 02:52:29.453] [modloading-worker-0/INFO] [com.muhammedesadcomert.protectmobsfromdaylight.forge.ProtectMobsFromDayLight/]: DIRT BLOCK >> minecraft:dirt
+[13Dec2025 02:52:29.487] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
+[13Dec2025 02:52:29.531] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
+[13Dec2025 02:52:29.608] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:aiming for minecraft:player
+[13Dec2025 02:52:29.609] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:reloading for minecraft:player
+[13Dec2025 02:52:29.609] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:shooting for minecraft:player
+[13Dec2025 02:52:29.609] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:burst_count for minecraft:player
+[13Dec2025 02:52:29.712] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[13Dec2025 02:52:29.712] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[13Dec2025 02:52:29.713] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[13Dec2025 02:52:29.714] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[13Dec2025 02:52:29.716] [main/INFO] [ribbits/]: Registering Ribbit umbrella types...
+[13Dec2025 02:52:29.716] [main/INFO] [ribbits/]: Registering Ribbit professions...
+[13Dec2025 02:52:29.717] [main/INFO] [ribbits/]: Registering Ribbit instruments...
+[13Dec2025 02:52:29.718] [main/INFO] [ribbits/]: Registering Ribbit data serializers...
+[13Dec2025 02:52:29.762] [modloading-worker-0/INFO] [easy_emerald/]: Hello world from EasyEmerald
+[13Dec2025 02:52:29.763] [modloading-worker-0/INFO] [easy_emerald/]: EasyEmerald IMC [Hello world]
+[13Dec2025 02:52:29.805] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[13Dec2025 02:52:29.826] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[13Dec2025 02:52:29.830] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[13Dec2025 02:52:29.832] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[13Dec2025 02:52:29.832] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.gravestone.integration.waila.PluginGraveStone
+[13Dec2025 02:52:29.833] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.balm.forge.compat.hudinfo.ForgeJadeModCompat
+[13Dec2025 02:52:30.190] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: AHEAD Current: 1.20.1-1.0.35 Target: null
+[13Dec2025 02:52:30.191] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[13Dec2025 02:52:30.237] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: AHEAD Current: 9.1.46 Target: null
+[13Dec2025 02:52:30.237] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[13Dec2025 02:52:30.461] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.10
+[13Dec2025 02:52:31.305] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13Dec2025 02:52:31.345] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MSP-2.6/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23173!/assets/.mcassetsroot' uses unexpected schema
+[13Dec2025 02:52:31.346] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MSP-2.6/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23173!/data/.mcassetsroot' uses unexpected schema
+[13Dec2025 02:52:33.141] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:abstract_gun'
+[13Dec2025 02:52:33.143] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:revolver'
+[13Dec2025 02:52:33.145] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:waterpipe_shotgun'
+[13Dec2025 02:52:33.147] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:custom_smg'
+[13Dec2025 02:52:33.148] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:double_barrel_shotgun'
+[13Dec2025 02:52:33.149] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:semi_auto_pistol'
+[13Dec2025 02:52:33.152] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:semi_auto_rifle'
+[13Dec2025 02:52:33.155] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:assault_rifle'
+[13Dec2025 02:52:33.157] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:pump_shotgun'
+[13Dec2025 02:52:33.158] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:combat_pistol'
+[13Dec2025 02:52:33.160] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:burst_rifle'
+[13Dec2025 02:52:33.162] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:combat_rifle'
+[13Dec2025 02:52:33.163] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:bolt_action_rifle'
+[13Dec2025 02:52:33.165] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:flare_gun'
+[13Dec2025 02:52:33.167] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:flare_gun'
+[13Dec2025 02:52:33.169] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:repeating_shotgun'
+[13Dec2025 02:52:33.171] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:infantry_rifle'
+[13Dec2025 02:52:33.173] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:service_rifle'
+[13Dec2025 02:52:33.175] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:blossom_rifle'
+[13Dec2025 02:52:33.177] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:holy_shotgun'
+[13Dec2025 02:52:33.180] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:atlantean_spear'
+[13Dec2025 02:52:33.182] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:typhoonee'
+[13Dec2025 02:52:33.183] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:hollenfire_mk2'
+[13Dec2025 02:52:33.186] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:soulhunter_mk2'
+[13Dec2025 02:52:33.188] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:subsonic_rifle'
+[13Dec2025 02:52:33.190] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:supersonic_shotgun'
+[13Dec2025 02:52:33.192] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:hypersonic_cannon'
+[13Dec2025 02:52:33.194] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:rocket_launcher'
+[13Dec2025 02:52:33.197] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:primitive_bow'
+[13Dec2025 02:52:33.199] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:compound_bow'
+[13Dec2025 02:52:33.202] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:grenade_launcher'
+[13Dec2025 02:52:33.207] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:light_machine_gun'
+[13Dec2025 02:52:33.208] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:flamethrower'
+[13Dec2025 02:52:33.209] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:flamethrower'
+[13Dec2025 02:52:33.210] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:minigun'
+[13Dec2025 02:52:33.213] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:finger_gun'
+[13Dec2025 02:52:33.215] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:scar_l'
+[13Dec2025 02:52:33.219] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:scar_h'
+[13Dec2025 02:52:33.221] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:g36c'
+[13Dec2025 02:52:33.222] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:akm'
+[13Dec2025 02:52:33.225] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:as_val'
+[13Dec2025 02:52:33.226] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:thompson'
+[13Dec2025 02:52:33.229] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:m16a1'
+[13Dec2025 02:52:33.233] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:famas'
+[13Dec2025 02:52:33.235] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:m1_garand'
+[13Dec2025 02:52:33.237] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:akm_custom'
+[13Dec2025 02:52:33.240] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:awp'
+[13Dec2025 02:52:33.242] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:benelli_m4'
+[13Dec2025 02:52:33.245] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:glock_17'
+[13Dec2025 02:52:33.247] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:m14'
+[13Dec2025 02:52:33.250] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:m14_ebr'
+[13Dec2025 02:52:33.254] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:m1911'
+[13Dec2025 02:52:33.255] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:mossberg_590'
+[13Dec2025 02:52:33.256] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:remington_870'
+[13Dec2025 02:52:33.258] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:vss_vintorez'
+[13Dec2025 02:52:33.259] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:walther_ppk'
+[13Dec2025 02:52:33.260] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:uzi'
+[13Dec2025 02:52:33.260] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:uzi'
+[13Dec2025 02:52:33.261] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:welrod'
+[13Dec2025 02:52:33.262] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:baker_rifle'
+[13Dec2025 02:52:33.266] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:lanchester'
+[13Dec2025 02:52:33.267] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:mp5'
+[13Dec2025 02:52:33.269] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:ppsh_41'
+[13Dec2025 02:52:33.270] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:micro_uzi'
+[13Dec2025 02:52:33.271] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:double_barrel'
+[13Dec2025 02:52:33.272] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:wrapped_rifle'
+[13Dec2025 02:52:33.273] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:hellfire'
+[13Dec2025 02:52:33.275] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:blue_heat'
+[13Dec2025 02:52:33.276] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:hog_bonker'
+[13Dec2025 02:52:33.277] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:m2_flamethrower'
+[13Dec2025 02:52:33.278] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:flamer'
+[13Dec2025 02:52:33.279] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:flare_gun'
+[13Dec2025 02:52:33.280] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:flare_gun'
+[13Dec2025 02:52:33.281] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:m16_lsw'
+[13Dec2025 02:52:33.282] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:m60'
+[13Dec2025 02:52:33.283] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:m107'
+[13Dec2025 02:52:33.284] [Worker-Main-3/INFO] [jeg/]: Registered gun 'mteg:m249'
+[13Dec2025 02:52:33.365] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg_cfg:fire_sweeper'
+[13Dec2025 02:52:33.380] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg_cfg:primitive_blowpipe'
+[13Dec2025 02:52:33.381] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg_cfg:vindicator_smg'
+[13Dec2025 02:52:33.582] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 15 recipes
+[13Dec2025 02:52:33.690] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2082 advancements
+[13Dec2025 02:52:33.727] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
+[13Dec2025 02:52:33.731] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[13Dec2025 02:52:33.731] [main/INFO] [Dungeon Crawl/]: Loading data...
+[13Dec2025 02:52:34.134] [main/INFO] [Dungeon Crawl/]: Done.
+[13Dec2025 02:52:34.907] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[13Dec2025 02:52:34.907] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[13Dec2025 02:52:34.908] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[13Dec2025 02:52:34.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[13Dec2025 02:52:34.986] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[13Dec2025 02:52:35.011] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[13Dec2025 02:52:35.098] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13Dec2025 02:52:35.099] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[13Dec2025 02:52:35.099] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13Dec2025 02:52:35.099] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[13Dec2025 02:52:35.116] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/jei-server.toml is not correct. Correcting
+[13Dec2025 02:52:35.117] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Dec2025 02:52:35.117] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForOp was corrected from null to its default, true. 
+[13Dec2025 02:52:35.117] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForCreative was corrected from null to its default, true. 
+[13Dec2025 02:52:35.118] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForGive was corrected from null to its default, false. 
+[13Dec2025 02:52:35.119] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/jeg-server.toml is not correct. Correcting
+[13Dec2025 02:52:35.120] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Dec2025 02:52:35.120] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.grenade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Dec2025 02:52:35.121] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.grenade.alphaOverlay was corrected from null to its default, 255. 
+[13Dec2025 02:52:35.121] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.grenade.alphaFadeThreshold was corrected from null to its default, 40. 
+[13Dec2025 02:52:35.122] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.grenade.soundPercentage was corrected from null to its default, 0.05. 
+[13Dec2025 02:52:35.122] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.grenade.soundFadeThreshold was corrected from null to its default, 90. 
+[13Dec2025 02:52:35.122] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.grenade.ringVolume was corrected from null to its default, 1.0. 
+[13Dec2025 02:52:35.123] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.audio was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Dec2025 02:52:35.123] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.audio.gunShotMaxDistance was corrected from null to its default, 100.0. 
+[13Dec2025 02:52:35.123] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.audio.reloadMaxDistance was corrected from null to its default, 24.0. 
+[13Dec2025 02:52:35.124] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.enableCameraRecoil was corrected from null to its default, true. 
+[13Dec2025 02:52:35.125] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.cooldownThreshold was corrected from null to its default, 0. 
+[13Dec2025 02:52:35.125] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.experimental was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Dec2025 02:52:35.126] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.experimental.forceDyeableAttachments was corrected from null to its default, false. 
+[13Dec2025 02:52:35.128] [Thread-2/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/MSP-2.6/servidor_minecraft/./world/serverconfig/jeg-server.toml is not correct. Correcting
+[13Dec2025 02:52:35.133] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/curios-server.toml is not correct. Correcting
+[13Dec2025 02:52:35.134] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key keepCurios was corrected from null to its default, DEFAULT. 
+[13Dec2025 02:52:35.136] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key menu was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Dec2025 02:52:35.138] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key menu.enableLegacyMenu was corrected from null to its default, false. 
+[13Dec2025 02:52:35.138] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key menu.experimental was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Dec2025 02:52:35.138] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key menu.experimental.minimumColumns was corrected from null to its default, 1. 
+[13Dec2025 02:52:35.139] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key menu.experimental.maxSlotsPerPage was corrected from null to its default, 48. 
+[13Dec2025 02:52:35.141] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/gravestone-server.toml is not correct. Correcting
+[13Dec2025 02:52:35.142] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enable_obituary was corrected from null to its default, true. 
+[13Dec2025 02:52:35.144] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key replaceable_blocks was corrected from null to its default, [#gravestone:grave_replaceable]. 
+[13Dec2025 02:52:35.145] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key remove_obituary was corrected from null to its default, false. 
+[13Dec2025 02:52:35.146] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key only_owners_can_break was corrected from null to its default, false. 
+[13Dec2025 02:52:35.150] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key spawn_ghost was corrected from null to its default, false. 
+[13Dec2025 02:52:35.152] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key friendly_ghost was corrected from null to its default, true. 
+[13Dec2025 02:52:35.153] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sneak_pickup was corrected from null to its default, false. 
+[13Dec2025 02:52:35.155] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key break_pickup was corrected from null to its default, true. 
+[13Dec2025 02:52:35.156] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key strict_placement was corrected from null to its default, false. 
+[13Dec2025 02:52:35.162] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/travelersbackpack-server.toml is not correct. Correcting
+[13Dec2025 02:52:35.163] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Dec2025 02:52:35.164] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Dec2025 02:52:35.165] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.leatherTierBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Dec2025 02:52:35.166] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.leatherTierBackpack.inventorySlotCount was corrected from null to its default, 27. 
+[13Dec2025 02:52:35.166] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.leatherTierBackpack.upgradeSlotCount was corrected from null to its default, 2. 
+[13Dec2025 02:52:35.167] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.leatherTierBackpack.toolSlotCount was corrected from null to its default, 2. 
+[13Dec2025 02:52:35.168] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.leatherTierBackpack.tankCapacity was corrected from null to its default, 1000. 
+[13Dec2025 02:52:35.169] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.ironTierBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Dec2025 02:52:35.169] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.ironTierBackpack.inventorySlotCount was corrected from null to its default, 45. 
+[13Dec2025 02:52:35.169] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.ironTierBackpack.upgradeSlotCount was corrected from null to its default, 3. 
+[13Dec2025 02:52:35.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.ironTierBackpack.toolSlotCount was corrected from null to its default, 3. 
+[13Dec2025 02:52:35.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.ironTierBackpack.tankCapacity was corrected from null to its default, 1000. 
+[13Dec2025 02:52:35.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.goldTierBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Dec2025 02:52:35.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.goldTierBackpack.inventorySlotCount was corrected from null to its default, 63. 
+[13Dec2025 02:52:35.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.goldTierBackpack.upgradeSlotCount was corrected from null to its default, 4. 
+[13Dec2025 02:52:35.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.goldTierBackpack.toolSlotCount was corrected from null to its default, 4. 
+[13Dec2025 02:52:35.172] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.goldTierBackpack.tankCapacity was corrected from null to its default, 1000. 
+[13Dec2025 02:52:35.172] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.diamondTierBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Dec2025 02:52:35.172] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.diamondTierBackpack.inventorySlotCount was corrected from null to its default, 81. 
+[13Dec2025 02:52:35.172] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.diamondTierBackpack.upgradeSlotCount was corrected from null to its default, 5. 
+[13Dec2025 02:52:35.173] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.diamondTierBackpack.toolSlotCount was corrected from null to its default, 5. 
+[13Dec2025 02:52:35.173] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.diamondTierBackpack.tankCapacity was corrected from null to its default, 1000. 
+[13Dec2025 02:52:35.173] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.netheriteTierBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Dec2025 02:52:35.174] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.netheriteTierBackpack.inventorySlotCount was corrected from null to its default, 99. 
+[13Dec2025 02:52:35.175] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.netheriteTierBackpack.upgradeSlotCount was corrected from null to its default, 6. 
+[13Dec2025 02:52:35.176] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.netheriteTierBackpack.toolSlotCount was corrected from null to its default, 6. 
+[13Dec2025 02:52:35.177] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.netheriteTierBackpack.tankCapacity was corrected from null to its default, 1000. 
+[13Dec2025 02:52:35.177] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.rightClickEquip was corrected from null to its default, true. 
+[13Dec2025 02:52:35.178] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.rightClickUnequip was corrected from null to its default, false. 
+[13Dec2025 02:52:35.179] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.allowOnlyEquippedBackpack was corrected from null to its default, false. 
+[13Dec2025 02:52:35.179] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.allowOpeningFromSlot was corrected from null to its default, false. 
+[13Dec2025 02:52:35.180] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.preventMultiplePlayersAccess was corrected from null to its default, false. 
+[13Dec2025 02:52:35.180] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.invulnerableBackpack was corrected from null to its default, true. 
+[13Dec2025 02:52:35.180] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.toolSlotsAcceptEverything was corrected from null to its default, false. 
+[13Dec2025 02:52:35.182] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.toolSlotsAcceptableItems was corrected from null to its default, []. 
+[13Dec2025 02:52:35.182] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.blacklistedItems was corrected from null to its default, []. 
+[13Dec2025 02:52:35.182] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.allowShulkerBoxes was corrected from null to its default, false. 
+[13Dec2025 02:52:35.182] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.voidProtection was corrected from null to its default, true. 
+[13Dec2025 02:52:35.184] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.backpackDeathPlace was corrected from null to its default, true. 
+[13Dec2025 02:52:35.185] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.backpackForceDeathPlace was corrected from null to its default, false. 
+[13Dec2025 02:52:35.185] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.quickSleepingBag was corrected from null to its default, true. 
+[13Dec2025 02:52:35.185] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.enableSleepingBagSpawnPoint was corrected from null to its default, false. 
+[13Dec2025 02:52:35.185] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.backSlotIntegration was corrected from null to its default, true. 
+[13Dec2025 02:52:35.186] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Dec2025 02:52:35.186] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.enableTanksUpgrade was corrected from null to its default, true. 
+[13Dec2025 02:52:35.186] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.enableCraftingUpgrade was corrected from null to its default, true. 
+[13Dec2025 02:52:35.186] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.enableFurnaceUpgrade was corrected from null to its default, true. 
+[13Dec2025 02:52:35.186] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.enableSmokerUpgrade was corrected from null to its default, true. 
+[13Dec2025 02:52:35.186] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.enableBlastFurnaceUpgrade was corrected from null to its default, true. 
+[13Dec2025 02:52:35.186] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.pickupUpgradeSettings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Dec2025 02:52:35.187] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.pickupUpgradeSettings.enablePickupUpgrade was corrected from null to its default, true. 
+[13Dec2025 02:52:35.187] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.pickupUpgradeSettings.filterSlotCount was corrected from null to its default, 9. 
+[13Dec2025 02:52:35.187] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.pickupUpgradeSettings.slotsInRow was corrected from null to its default, 3. 
+[13Dec2025 02:52:35.187] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.enableJukeboxUpgrade was corrected from null to its default, true. 
+[13Dec2025 02:52:35.190] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.magnetUpgradeSettings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Dec2025 02:52:35.191] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.magnetUpgradeSettings.enableMagnetUpgrade was corrected from null to its default, true. 
+[13Dec2025 02:52:35.192] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.magnetUpgradeSettings.filterSlotCount was corrected from null to its default, 9. 
+[13Dec2025 02:52:35.194] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.magnetUpgradeSettings.slotsInRow was corrected from null to its default, 3. 
+[13Dec2025 02:52:35.195] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.magnetUpgradeSettings.pullRange was corrected from null to its default, 5. 
+[13Dec2025 02:52:35.195] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.magnetUpgradeSettings.tickRate was corrected from null to its default, 10. 
+[13Dec2025 02:52:35.196] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.feedingUpgradeSettings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Dec2025 02:52:35.196] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.feedingUpgradeSettings.enableFeedingUpgrade was corrected from null to its default, true. 
+[13Dec2025 02:52:35.196] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.feedingUpgradeSettings.filterSlotCount was corrected from null to its default, 9. 
+[13Dec2025 02:52:35.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.feedingUpgradeSettings.slotsInRow was corrected from null to its default, 3. 
+[13Dec2025 02:52:35.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.feedingUpgradeSettings.tickRate was corrected from null to its default, 100. 
+[13Dec2025 02:52:35.198] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.refillUpgradeSettings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Dec2025 02:52:35.198] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.refillUpgradeSettings.enableRefillUpgrade was corrected from null to its default, true. 
+[13Dec2025 02:52:35.199] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.refillUpgradeSettings.filterSlotCount was corrected from null to its default, 9. 
+[13Dec2025 02:52:35.199] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.refillUpgradeSettings.slotsInRow was corrected from null to its default, 3. 
+[13Dec2025 02:52:35.200] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.refillUpgradeSettings.tickRate was corrected from null to its default, 5. 
+[13Dec2025 02:52:35.200] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.voidUpgradeSettings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Dec2025 02:52:35.201] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.voidUpgradeSettings.enableVoidUpgrade was corrected from null to its default, true. 
+[13Dec2025 02:52:35.201] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.voidUpgradeSettings.filterSlotCount was corrected from null to its default, 9. 
+[13Dec2025 02:52:35.202] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.voidUpgradeSettings.slotsInRow was corrected from null to its default, 3. 
+[13Dec2025 02:52:35.202] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.world was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Dec2025 02:52:35.202] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.world.spawnEntitiesWithBackpack was corrected from null to its default, true. 
+[13Dec2025 02:52:35.203] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.world.chance was corrected from null to its default, 0.005. 
+[13Dec2025 02:52:35.204] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.world.possibleOverworldEntityTypes was corrected from null to its default, [minecraft:zombie, minecraft:skeleton, minecraft:enderman]. 
+[13Dec2025 02:52:35.204] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.world.possibleNetherEntityTypes was corrected from null to its default, [minecraft:wither_skeleton, minecraft:piglin]. 
+[13Dec2025 02:52:35.205] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.world.overworldBackpacks was corrected from null to its default, [travelersbackpack:standard, travelersbackpack:diamond, travelersbackpack:gold, travelersbackpack:emerald, travelersbackpack:iron, travelersbackpack:lapis, travelersbackpack:redstone, travelersbackpack:coal, travelersbackpack:bookshelf, travelersbackpack:sandstone, travelersbackpack:snow, travelersbackpack:sponge, travelersbackpack:cake, travelersbackpack:cactus, travelersbackpack:hay, travelersbackpack:melon, travelersbackpack:pumpkin, travelersbackpack:creeper, travelersbackpack:enderman, travelersbackpack:skeleton, travelersbackpack:spider, travelersbackpack:bee, travelersbackpack:wolf, travelersbackpack:fox, travelersbackpack:ocelot, travelersbackpack:horse, travelersbackpack:cow, travelersbackpack:pig, travelersbackpack:sheep, travelersbackpack:chicken, travelersbackpack:squid]. 
+[13Dec2025 02:52:35.206] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.world.netherBackpacks was corrected from null to its default, [travelersbackpack:quartz, travelersbackpack:nether, travelersbackpack:blaze, travelersbackpack:ghast, travelersbackpack:magma_cube, travelersbackpack:wither]. 
+[13Dec2025 02:52:35.206] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackAbilities was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Dec2025 02:52:35.207] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackAbilities.enableBackpackAbilities was corrected from null to its default, true. 
+[13Dec2025 02:52:35.207] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackAbilities.forceAbilityEnabled was corrected from null to its default, true. 
+[13Dec2025 02:52:35.207] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackAbilities.allowedAbilities was corrected from null to its default, [travelersbackpack:netherite, travelersbackpack:diamond, travelersbackpack:gold, travelersbackpack:emerald, travelersbackpack:iron, travelersbackpack:lapis, travelersbackpack:redstone, travelersbackpack:bookshelf, travelersbackpack:sponge, travelersbackpack:cake, travelersbackpack:cactus, travelersbackpack:melon, travelersbackpack:pumpkin, travelersbackpack:creeper, travelersbackpack:dragon, travelersbackpack:enderman, travelersbackpack:blaze, travelersbackpack:ghast, travelersbackpack:magma_cube, travelersbackpack:spider, travelersbackpack:wither, travelersbackpack:warden, travelersbackpack:bat, travelersbackpack:bee, travelersbackpack:ocelot, travelersbackpack:cow, travelersbackpack:chicken, travelersbackpack:squid, travelersbackpack:hay, travelersbackpack:fox]. 
+[13Dec2025 02:52:35.208] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackAbilities.backpackEffects was corrected from null to its default, [travelersbackpack:bat, minecraft:night_vision, 260, 300, 0, travelersbackpack:magma_cube, minecraft:fire_resistance, 260, 300, 0, travelersbackpack:squid, minecraft:water_breathing, 260, 300, 0, travelersbackpack:squid, minecraft:night_vision, 260, 300, 0, travelersbackpack:dragon, minecraft:regeneration, 260, 300, 0, travelersbackpack:dragon, minecraft:strength, 250, 290, 0, travelersbackpack:quartz, minecraft:haste, 260, 300, 0, travelersbackpack:fox, minecraft:jump_boost, 260, 300, 0]. 
+[13Dec2025 02:52:35.208] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackAbilities.cooldowns was corrected from null to its default, [travelersbackpack:creeper, 1200, 1800, travelersbackpack:cow, 480, 540, travelersbackpack:chicken, 360, 600, travelersbackpack:cake, 360, 480, travelersbackpack:melon, 120, 480]. 
+[13Dec2025 02:52:35.208] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.slownessDebuff was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Dec2025 02:52:35.208] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.slownessDebuff.tooManyBackpacksSlowness was corrected from null to its default, false. 
+[13Dec2025 02:52:35.208] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.slownessDebuff.maxNumberOfBackpacks was corrected from null to its default, 3. 
+[13Dec2025 02:52:35.209] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.slownessDebuff.slownessPerExcessedBackpack was corrected from null to its default, 1.0. 
+[13Dec2025 02:52:35.221] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
+[13Dec2025 02:52:35.222] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Dec2025 02:52:35.222] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[13Dec2025 02:52:35.222] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[13Dec2025 02:52:35.223] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[13Dec2025 02:52:35.223] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[13Dec2025 02:52:35.223] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[13Dec2025 02:52:35.224] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[13Dec2025 02:52:35.224] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
+[13Dec2025 02:52:35.295] [Server thread/INFO] [Framework/]: Loading server configs...
+[13Dec2025 02:52:35.316] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:overworld
+[13Dec2025 02:52:35.317] [Server thread/INFO] [citadel/]: vanilla surface rule behavior unchanged
+[13Dec2025 02:52:35.317] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:the_nether
+[13Dec2025 02:52:35.317] [Server thread/INFO] [citadel/]: vanilla surface rule behavior unchanged
+[13Dec2025 02:52:35.318] [Server thread/INFO] [citadel/]: vanilla surface rule behavior unchanged
+[13Dec2025 02:52:35.319] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[13Dec2025 02:52:36.309] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[13Dec2025 02:52:40.307] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[13Dec2025 02:52:44.804] [Worker-Main-1/INFO] [bettercaves/]: CREATING AND INIT'ING MASTER CONTROLLER...
+[13Dec2025 02:52:50.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[13Dec2025 02:52:51.560] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2025 02:52:51.561] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2025 02:52:51.896] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2025 02:52:52.396] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2025 02:52:52.886] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2025 02:52:53.399] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2025 02:52:53.886] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2025 02:52:54.393] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[13Dec2025 02:52:54.985] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[13Dec2025 02:52:55.383] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[13Dec2025 02:52:55.887] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[13Dec2025 02:52:56.394] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[13Dec2025 02:52:56.884] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[13Dec2025 02:52:57.397] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[13Dec2025 02:52:57.904] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
+[13Dec2025 02:52:58.400] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[13Dec2025 02:52:58.885] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[13Dec2025 02:52:59.410] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 8%
+[13Dec2025 02:52:59.895] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
+[13Dec2025 02:53:00.394] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
+[13Dec2025 02:53:00.884] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
+[13Dec2025 02:53:01.412] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 12%
+[13Dec2025 02:53:01.940] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 13%
+[13Dec2025 02:53:02.387] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 14%
+[13Dec2025 02:53:02.927] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
+[13Dec2025 02:53:03.429] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[13Dec2025 02:53:03.431] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
+[13Dec2025 02:53:03.886] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
+[13Dec2025 02:53:04.386] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[13Dec2025 02:53:04.896] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 19%
+[13Dec2025 02:53:05.392] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
+[13Dec2025 02:53:05.614] [Netty Epoll Server IO #4/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[13Dec2025 02:53:05.898] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
+[13Dec2025 02:53:06.253] [Netty Epoll Server IO #5/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[13Dec2025 02:53:06.395] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
+[13Dec2025 02:53:06.887] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
+[13Dec2025 02:53:07.062] [Netty Epoll Server IO #6/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[13Dec2025 02:53:07.396] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 25%
+[13Dec2025 02:53:07.886] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 26%
+[13Dec2025 02:53:08.116] [Netty Epoll Server IO #7/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[13Dec2025 02:53:08.389] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 27%
+[13Dec2025 02:53:08.725] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[13Dec2025 02:53:08.905] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 28%
+[13Dec2025 02:53:09.386] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 30%
+[13Dec2025 02:53:09.899] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
+[13Dec2025 02:53:10.406] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[13Dec2025 02:53:10.428] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
+[13Dec2025 02:53:10.886] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
+[13Dec2025 02:53:11.384] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 34%
+[13Dec2025 02:53:11.884] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 35%
+[13Dec2025 02:53:12.441] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 37%
+[13Dec2025 02:53:12.919] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 38%
+[13Dec2025 02:53:13.390] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 39%
+[13Dec2025 02:53:13.884] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 41%
+[13Dec2025 02:53:14.419] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
+[13Dec2025 02:53:14.506] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id scpo:scp_173
+[13Dec2025 02:53:14.899] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 43%
+[13Dec2025 02:53:15.392] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
+[13Dec2025 02:53:15.890] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 45%
+[13Dec2025 02:53:16.407] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 47%
+[13Dec2025 02:53:16.889] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 48%
+[13Dec2025 02:53:17.385] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 49%
+[13Dec2025 02:53:17.890] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
+[13Dec2025 02:53:18.386] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 53%
+[13Dec2025 02:53:18.754] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[13Dec2025 02:53:18.886] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
+[13Dec2025 02:53:19.397] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
+[13Dec2025 02:53:19.575] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[13Dec2025 02:53:19.917] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 56%
+[13Dec2025 02:53:20.176] [Netty Epoll Server IO #4/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[13Dec2025 02:53:20.390] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 57%
+[13Dec2025 02:53:20.479] [Netty Epoll Server IO #5/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[13Dec2025 02:53:20.756] [Netty Epoll Server IO #6/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[13Dec2025 02:53:20.888] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 59%
+[13Dec2025 02:53:21.390] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 61%
+[13Dec2025 02:53:21.894] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 62%
+[13Dec2025 02:53:22.398] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 64%
+[13Dec2025 02:53:22.902] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 66%
+[13Dec2025 02:53:23.421] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 67%
+[13Dec2025 02:53:23.799] [Netty Epoll Server IO #7/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[13Dec2025 02:53:23.893] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
+[13Dec2025 02:53:24.462] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
+[13Dec2025 02:53:24.882] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
+[13Dec2025 02:53:25.385] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 71%
+[13Dec2025 02:53:25.885] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 73%
+[13Dec2025 02:53:26.390] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 74%
+[13Dec2025 02:53:26.888] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 75%
+[13Dec2025 02:53:27.390] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 77%
+[13Dec2025 02:53:27.888] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 79%
+[13Dec2025 02:53:28.193] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id shy_guy:shy_guy
+[13Dec2025 02:53:28.389] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 81%
+[13Dec2025 02:53:28.890] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[13Dec2025 02:53:29.390] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
+[13Dec2025 02:53:29.902] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
+[13Dec2025 02:53:30.397] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
+[13Dec2025 02:53:30.891] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
+[13Dec2025 02:53:31.386] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
+[13Dec2025 02:53:31.895] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 90%
+[13Dec2025 02:53:32.389] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 91%
+[13Dec2025 02:53:32.891] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 93%
+[13Dec2025 02:53:32.929] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id scpo:scp_049
+[13Dec2025 02:53:33.387] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 95%
+[13Dec2025 02:53:33.912] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[13Dec2025 02:53:34.386] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[13Dec2025 02:53:34.617] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 43736 ms
+[13Dec2025 02:53:34.618] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (59.504s)! For help, type "help"
+[13Dec2025 02:53:34.653] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[13Dec2025 02:53:34.653] [Server thread/INFO] [com.muhammedesadcomert.protectmobsfromdaylight.forge.ProtectMobsFromDayLight/]: HELLO from server starting
+[13Dec2025 02:53:34.654] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[13Dec2025 02:53:34.654] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[13Dec2025 02:54:00.204] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: TheAstoria1090[/127.197.22.13:51761] logged in with entity id 927 at (247.5, 186.0, 86.5)
+[13Dec2025 02:54:00.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheAstoria1090 joined the game
+[13Dec2025 02:54:00.450] [Server thread/INFO] [Jade/]: Syncing config to TheAstoria1090 (a3b499f0-51af-3225-aacb-9c421195ca4d)
+[13Dec2025 02:54:00.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheAstoria1090 has made the advancement [Ice and Fire]
+[13Dec2025 02:54:48.380] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: AcidD_x[/127.16.75.52:47641] logged in with entity id 1203 at (248.5, 169.0, 95.5)
+[13Dec2025 02:54:48.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AcidD_x joined the game
+[13Dec2025 02:54:48.515] [Server thread/INFO] [Jade/]: Syncing config to AcidD_x (80f01903-9eb0-30c0-b3a6-324268cf1de1)
+[13Dec2025 02:54:48.518] [Server thread/INFO] [jeg/]: Player AcidD_x has received the first join message.
+[13Dec2025 02:54:48.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AcidD_x has made the advancement [Ice and Fire]
+[13Dec2025 02:55:08.128] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nothing changed. The player already is an operator
+[13Dec2025 02:59:56.369] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: AcidD_x lost connection: Disconnected
+[13Dec2025 02:59:56.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AcidD_x left the game
+[13Dec2025 03:00:48.985] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: AcidD_x[/127.16.75.52:42465] logged in with entity id 3254 at (296.36693244164746, 77.0, 178.72178928840728)
+[13Dec2025 03:00:49.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AcidD_x joined the game
+[13Dec2025 03:00:49.083] [Server thread/INFO] [Jade/]: Syncing config to AcidD_x (80f01903-9eb0-30c0-b3a6-324268cf1de1)
+[13Dec2025 03:02:09.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Teleported AcidD_x to TheAstoria1090]
+[13Dec2025 03:05:34.319] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheAstoria1090 was slain by AcidD_x
+[13Dec2025 03:05:34.323] [Server thread/INFO] [gravestone/]: The death ID of player TheAstoria1090 is 5bd0b933-204d-41cb-82e2-3b24fa660fa1
+[13Dec2025 03:05:51.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Teleported TheAstoria1090 to AcidD_x]
+[13Dec2025 03:06:19.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AcidD_x has made the advancement [Monster Hunter]
+[13Dec2025 03:07:20.973] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Crowdante53[/127.58.36.201:51671] logged in with entity id 4717 at (235.5, 166.0, 104.5)
+[13Dec2025 03:07:20.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crowdante53 joined the game
+[13Dec2025 03:07:21.014] [Server thread/INFO] [Jade/]: Syncing config to Crowdante53 (8744c8f4-4c4b-3768-9a3b-15d229f12b52)
+[13Dec2025 03:07:21.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crowdante53 has made the advancement [Ice and Fire]
+[13Dec2025 03:07:34.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheAstoria1090 has made the advancement [Monster Hunter]
+[13Dec2025 03:08:06.391] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=241, y=160, z=101}
+[13Dec2025 03:08:06.438] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=242, y=160, z=100}
+[13Dec2025 03:08:06.487] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=241, y=159, z=100}
+[13Dec2025 03:08:07.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Teleported Crowdante53 to AcidD_x]
+[13Dec2025 03:08:10.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheAstoria1090 was slain by Zombie
+[13Dec2025 03:08:10.664] [Server thread/INFO] [gravestone/]: The death ID of player TheAstoria1090 is 4bdd1560-914b-4858-b2ad-cca3110ecb65
+[13Dec2025 03:08:17.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheAstoria1090 fell from a high place
+[13Dec2025 03:08:17.333] [Server thread/INFO] [gravestone/]: The death ID of player TheAstoria1090 is 29046120-e34b-4e8a-8109-1283d95e815a
+[13Dec2025 03:08:17.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crowdante53 has made the advancement [Monster Hunter]
+[13Dec2025 03:08:23.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AcidD_x was slain by Zombie
+[13Dec2025 03:08:23.066] [Server thread/INFO] [gravestone/]: The death ID of player AcidD_x is 9482dddf-c278-490e-b52d-8afa2eee9f5d
+[13Dec2025 03:08:43.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheAstoria1090 fell from a high place
+[13Dec2025 03:08:43.483] [Server thread/INFO] [gravestone/]: The death ID of player TheAstoria1090 is 22f52c49-84cf-4ca8-939a-3d1911564b31
+[13Dec2025 03:08:53.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Teleported TheAstoria1090 to Crowdante53]
+[13Dec2025 03:08:56.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crowdante53 was slain by Zombie
+[13Dec2025 03:08:56.117] [Server thread/INFO] [gravestone/]: The death ID of player Crowdante53 is f40d2974-71f3-457d-af81-1f8d7f5994f8
+[13Dec2025 03:09:07.773] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Teleported AcidD_x to TheAstoria1090]
+[13Dec2025 03:12:13.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Teleported Crowdante53 to AcidD_x]
+[13Dec2025 03:12:31.367] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Crowdante53 lost connection: Disconnected
+[13Dec2025 03:12:31.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crowdante53 left the game
+[13Dec2025 03:12:35.980] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Crowdante53[/127.58.36.201:36047] logged in with entity id 6125 at (424.3824967304481, 66.0, 56.18261358962088)
+[13Dec2025 03:12:35.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crowdante53 joined the game
+[13Dec2025 03:12:36.024] [Server thread/INFO] [Jade/]: Syncing config to Crowdante53 (8744c8f4-4c4b-3768-9a3b-15d229f12b52)
+[13Dec2025 03:12:51.215] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Crowdante53 lost connection: Disconnected
+[13Dec2025 03:12:51.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crowdante53 left the game
+[13Dec2025 03:13:45.265] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: TheAstoria1090 lost connection: Disconnected
+[13Dec2025 03:13:45.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheAstoria1090 left the game
+[13Dec2025 03:14:28.174] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Crowdante53[/127.58.36.201:49465] logged in with entity id 6366 at (426.30000001192093, 62.0, 53.16558229666549)
+[13Dec2025 03:14:28.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crowdante53 joined the game
+[13Dec2025 03:14:28.220] [Server thread/INFO] [Jade/]: Syncing config to Crowdante53 (8744c8f4-4c4b-3768-9a3b-15d229f12b52)
+[13Dec2025 03:14:46.265] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Crowdante53 lost connection: Disconnected
+[13Dec2025 03:14:46.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crowdante53 left the game
+[13Dec2025 03:14:50.922] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: TheAstoria1090[/127.197.22.13:38445] logged in with entity id 6414 at (426.9480395227489, 62.0, 62.64350928886983)
+[13Dec2025 03:14:50.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheAstoria1090 joined the game
+[13Dec2025 03:14:50.962] [Server thread/INFO] [Jade/]: Syncing config to TheAstoria1090 (a3b499f0-51af-3225-aacb-9c421195ca4d)
+[13Dec2025 03:15:44.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheAstoria1090 was slain by Zombie
+[13Dec2025 03:15:44.319] [Server thread/INFO] [gravestone/]: The death ID of player TheAstoria1090 is 5bac8567-910c-43d9-9103-3c5adef7e816
+[13Dec2025 03:16:00.575] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Crowdante53[/127.58.36.201:41915] logged in with entity id 6640 at (426.30000001192093, 62.0, 53.16558229666549)
+[13Dec2025 03:16:00.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crowdante53 joined the game
+[13Dec2025 03:16:00.641] [Server thread/INFO] [Jade/]: Syncing config to Crowdante53 (8744c8f4-4c4b-3768-9a3b-15d229f12b52)
+[13Dec2025 03:18:58.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheAstoria1090 fell off a ladder
+[13Dec2025 03:18:58.120] [Server thread/INFO] [gravestone/]: The death ID of player TheAstoria1090 is 33e9d3c6-fb07-42af-b10d-476c25b70fe0
+[13Dec2025 03:20:27.368] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Crowdante53 lost connection: Disconnected
+[13Dec2025 03:20:27.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crowdante53 left the game
+[13Dec2025 03:24:33.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Creative Mode]
+[13Dec2025 03:24:37.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheAstoria1090 was slain by Zombie
+[13Dec2025 03:24:37.767] [Server thread/INFO] [gravestone/]: The death ID of player TheAstoria1090 is 78770e00-2e5f-4d48-b1ea-a330e0ab57a9
+[13Dec2025 03:25:12.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Survival Mode]
+[13Dec2025 03:26:58.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Creative Mode]
+[13Dec2025 03:27:29.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Teleported TheAstoria1090 to AcidD_x]
+[13Dec2025 03:28:32.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Survival Mode]
+[13Dec2025 03:29:48.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheAstoria1090 was annihilated by AcidD_x
+[13Dec2025 03:29:48.118] [Server thread/INFO] [gravestone/]: The death ID of player TheAstoria1090 is f96bd82f-f8d0-4f32-b73b-b9685231c997
+[13Dec2025 03:30:09.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Teleported TheAstoria1090 to AcidD_x]
+[13Dec2025 03:31:17.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Creative Mode]
+[13Dec2025 03:35:33.022] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Crowdante53[/127.58.36.201:59845] logged in with entity id 9477 at (426.30000001192093, 62.0, 53.69999998807907)
+[13Dec2025 03:35:33.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crowdante53 joined the game
+[13Dec2025 03:35:33.072] [Server thread/INFO] [Jade/]: Syncing config to Crowdante53 (8744c8f4-4c4b-3768-9a3b-15d229f12b52)
+[13Dec2025 03:38:11.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheAstoria1090 has made the advancement [Hot Stuff]
+[13Dec2025 03:39:39.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Teleported Crowdante53 to AcidD_x]
+[13Dec2025 03:39:55.991] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Crowdante53 moved wrongly!
+[13Dec2025 03:40:03.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crowdante53 has made the advancement [Hot Stuff]
+[13Dec2025 03:40:45.392] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Crowdante53 moved wrongly!
+[13Dec2025 03:40:46.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crowdante53 tried to swim in lava
+[13Dec2025 03:40:46.919] [Server thread/INFO] [gravestone/]: The death ID of player Crowdante53 is 3dc54859-6170-473d-b2a5-df328fdaba95
+[13Dec2025 03:41:32.503] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: TheAstoria1090 moved wrongly!
+[13Dec2025 03:41:39.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crowdante53 fell from a high place
+[13Dec2025 03:41:39.333] [Server thread/INFO] [gravestone/]: The death ID of player Crowdante53 is e4d9fec3-049d-4d12-b056-eb0e571c0b77
+[13Dec2025 03:41:40.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Teleported Crowdante53 to AcidD_x]
+[13Dec2025 03:42:17.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Survival Mode]
+[13Dec2025 03:42:18.567] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AcidD_x has made the advancement [Hot Stuff]
+[13Dec2025 03:42:57.062] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: AcidD_x moved wrongly!
+[13Dec2025 03:42:58.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AcidD_x tried to swim in lava
+[13Dec2025 03:42:58.375] [Server thread/INFO] [gravestone/]: The death ID of player AcidD_x is 6eaadaf9-82da-4ebb-aac9-621199501fd3
+[13Dec2025 03:43:07.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Teleported AcidD_x to TheAstoria1090]
+[13Dec2025 03:43:48.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Creative Mode]
+[13Dec2025 03:44:29.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Survival Mode]
+[13Dec2025 03:44:49.627] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! 4.025714131874679,2.127667457037063,8.924122690210368
+[13Dec2025 03:44:49.628] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! 4.175566055693935,2.2933654893441258,9.647191667801394
+[13Dec2025 03:44:49.628] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! 4.300628690553481,2.4587025258485085,10.372462362014062
+[13Dec2025 03:44:49.629] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! 4.400731484650464,2.6236021670591185,11.099205528504513
+[13Dec2025 03:44:49.629] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! 4.475748933761906,2.7880010800001855,11.82667615453397
+[13Dec2025 03:44:49.629] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! 4.525598233332175,2.9518477800865526,12.55411587616203
+[13Dec2025 03:44:49.630] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! 4.550237158225741,3.1151015602922882,13.280755770339056
+[13Dec2025 03:44:49.630] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! 4.54966212250406,3.2777314695875077,14.005819004815919
+[13Dec2025 03:44:49.630] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! 4.523906487345016,3.4397151894333717,14.728522809399692
+[13Dec2025 03:44:49.630] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! 4.4730390414817975,3.6010380098544204,15.448080377666827
+[13Dec2025 03:44:49.631] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! 4.397162568058889,3.761691949724792,16.163702979415064
+[13Dec2025 03:44:49.631] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! 4.296412800992584,3.9216746510372786,16.87460094525312
+[13Dec2025 03:44:49.631] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! 4.170957067638824,4.080988858614944,17.579986096780317
+[13Dec2025 03:44:49.632] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! 4.020993700850227,4.239641297959906,18.279071952836716
+[13Dec2025 03:44:49.632] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! 3.8469331359552825,4.3976423325248675,18.97115994857984
+[13Dec2025 03:44:49.632] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! 3.6497279256500406,4.55501321054453,19.65582539828705
+[13Dec2025 03:44:49.632] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! 3.4306722442124737,4.711789306296112,20.3328862657591
+[13Dec2025 03:44:49.633] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! 3.1912539622786653,4.868020455916337,21.002365150576793
+[13Dec2025 03:44:49.633] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! 2.933049763780218,5.023768187066082,21.66444634561202
+[13Dec2025 03:44:49.633] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! 2.6576509207053505,5.179102622669859,22.319437063759665
+[13Dec2025 03:44:49.633] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! 2.366613590886118,5.334098686005888,22.96773142088739
+[13Dec2025 03:44:49.634] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! 2.061426188432506,5.488832764881039,23.609780420526704
+[13Dec2025 03:44:49.634] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! 1.7434895056825326,5.64337986641641,24.24606718211902
+[13Dec2025 03:44:49.634] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! 1.4141059120960335,5.7978113355864025,24.877087216193672
+[13Dec2025 03:44:49.634] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! 1.0744751943525443,5.952193054733982,25.50333286847348
+[13Dec2025 03:44:49.635] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! 0.7256940364979982,6.10658461302026,26.12528279221266
+[13Dec2025 03:44:49.679] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -3.4825318241051946,4.299339839762098,18.539428432519685
+[13Dec2025 03:44:49.680] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -3.8467192131394086,4.453901530235356,19.154129286293937
+[13Dec2025 03:44:49.680] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -4.217347515351435,4.608609312823546,19.765819334944922
+[13Dec2025 03:44:49.681] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -4.593688209161428,4.763494674807816,20.37486542304731
+[13Dec2025 03:44:49.681] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -4.9750895049178325,4.918582893189239,20.981602346725595
+[13Dec2025 03:44:49.681] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -5.36096977682007,5.073893586598842,21.586333421038432
+[13Dec2025 03:44:49.681] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -5.750810930925468,5.229441197040757,22.189331336923317
+[13Dec2025 03:44:49.682] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -6.144152243586063,5.385235537683258,22.79083969633041
+[13Dec2025 03:44:49.682] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -6.5405850072888825,5.541282592631319,23.391075444514627
+[13Dec2025 03:44:49.682] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -6.939747022494203,5.697584962876789,23.99023060955966
+[13Dec2025 03:44:49.682] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -7.341317929438333,5.854142500328152,24.5884746962613
+[13Dec2025 03:44:49.682] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -7.745014332141864,6.010952576725231,25.1859561837627
+[13Dec2025 03:44:49.683] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -8.150586105868683,6.16801069590926,25.78280506033809
+[13Dec2025 03:44:49.683] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -8.557812778653101,6.325310916541184,26.37913480615987
+[13Dec2025 03:44:49.683] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -8.966499951346577,6.482846037624142,26.975043840237788
+[13Dec2025 03:44:49.683] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -9.37647648228699,6.640607968402946,27.57061736560769
+[13Dec2025 03:44:49.683] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -9.787591632296994,6.7985878662705375,28.165928618985447
+[13Dec2025 03:44:49.684] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -10.199712862746424,6.956776443970597,28.761040549351833
+[13Dec2025 03:44:49.684] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -10.612723885695345,7.115164248394336,29.356007301031184
+[13Dec2025 03:44:49.684] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -11.026522312989414,7.273741557572805,29.950874687727946
+[13Dec2025 03:44:49.684] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -11.441018182676885,7.432498600112098,30.54568151617235
+[13Dec2025 03:44:49.684] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -11.85613238763574,7.591425592957279,31.140460326208427
+[13Dec2025 03:44:49.685] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -12.271795524839376,7.750512918689452,31.73523846117712
+[13Dec2025 03:44:49.685] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -12.687947006020408,7.90975132758615,32.330039135133916
+[13Dec2025 03:44:49.685] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -13.104533520271843,8.06913173416035,32.92488134309474
+[13Dec2025 03:44:49.685] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -13.5215083252574,8.228645351708792,33.519780679209646
+[13Dec2025 03:44:49.686] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -13.938830353938329,8.388283648482656,34.114749665215015
+[13Dec2025 03:44:49.686] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -14.356463688177882,8.548038471242762,34.70979844868987
+[13Dec2025 03:44:49.686] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -14.774376788544942,8.70790197858102,35.30493494400372
+[13Dec2025 03:44:49.686] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -15.192542115351102,8.86786673284297,35.90016538400516
+[13Dec2025 03:44:49.687] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -15.610935194575063,9.0279254462763,36.49549393383211
+[13Dec2025 03:44:49.687] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -16.02953503113997,9.188071420806352,37.090924130536166
+[13Dec2025 03:44:49.687] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -16.44832286501287,9.348298091071229,37.68645781575208
+[13Dec2025 03:44:49.687] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -16.867282680227163,9.508599456792808,38.28209653011271
+[13Dec2025 03:44:49.688] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -17.286400068801527,9.668969617645928,38.87784043104483
+[13Dec2025 03:44:49.688] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -17.705826622614723,9.829403196333345,39.47357353980209
+[13Dec2025 03:44:49.688] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -18.126192648570395,9.989894891704353,40.06883750428949
+[13Dec2025 03:44:49.699] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -18.54844456805506,10.150439021359176,40.66293407976701
+[13Dec2025 03:44:49.699] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -18.973718087711518,10.311028637401023,41.254998419449294
+[13Dec2025 03:44:49.700] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -19.403240422218687,10.471654324878756,41.8440512452982
+[13Dec2025 03:44:49.700] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -19.838257145167972,10.632303516285305,42.429037659911046
+[13Dec2025 03:44:49.700] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -20.279977268458993,10.792959559868478,43.008854567629214
+[13Dec2025 03:44:49.700] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -20.72953417756503,10.953601378780434,43.58237178212573
+[13Dec2025 03:44:49.700] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -21.18795924073129,11.11420373961451,44.14844881038351
+[13Dec2025 03:44:49.701] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -21.656163901944183,11.274737343344611,44.70594697740722
+[13Dec2025 03:44:49.762] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -22.1349310050374,11.435169982175609,45.25374088538217
+[13Dec2025 03:44:49.798] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -22.62490928727641,11.595466784624904,45.790725370507744
+[13Dec2025 03:44:49.854] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -23.126614813110564,11.75559167891032,46.31582352806197
+[13Dec2025 03:44:49.896] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -23.640432967285733,11.91550784256728,46.827991088924534
+[13Dec2025 03:44:49.954] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -24.16662448229988,12.075178812451696,47.3262213294218
+[13Dec2025 03:44:49.998] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -24.705220647547662,12.234569164146905,47.80971535634217
+[13Dec2025 03:44:50.041] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -25.255840083414796,12.393651546812293,48.278218717512914
+[13Dec2025 03:44:50.099] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -25.817848060154688,12.552411026636918,48.731888987572916
+[13Dec2025 03:44:50.141] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -26.390468687107045,12.710846307133124,49.171185010571264
+[13Dec2025 03:44:50.199] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -26.972861725959547,12.868968743674003,49.5967761801262
+[13Dec2025 03:44:50.243] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -27.56417475295973,13.026800489254214,50.009470294008224
+[13Dec2025 03:44:50.299] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -28.163576641705163,13.184371986405097,50.410156865253214
+[13Dec2025 03:44:50.342] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -28.770277640596532,13.341719242003762,50.799763329294706
+[13Dec2025 03:44:50.399] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -29.38363097839033,13.498881183935708,51.17904284264483
+[13Dec2025 03:44:50.443] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -30.00330058005875,13.655894163189231,51.54820438027758
+[13Dec2025 03:44:50.501] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -30.62915526918789,13.812788541486839,51.90705563567576
+[13Dec2025 03:44:50.545] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -31.26110712761249,13.969587146118982,52.25529834197829
+[13Dec2025 03:44:50.603] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -31.898912451168258,14.12630881860116,52.592971917343164
+[13Dec2025 03:44:50.645] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -32.542234810696755,14.282971166724508,52.92035885407171
+[13Dec2025 03:44:50.703] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -33.19068868742022,14.439591861135796,53.23790990521252
+[13Dec2025 03:44:50.746] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -33.84386932123766,14.596189051785927,53.546185836936445
+[13Dec2025 03:44:50.804] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -34.501372492889914,14.752781244623662,53.84581262592968
+[13Dec2025 03:44:50.847] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -35.162807606760566,14.909387071242207,54.137447902729775
+[13Dec2025 03:44:50.904] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -35.82780521802408,15.066024783785764,54.42175582367145
+[13Dec2025 03:44:50.948] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -36.496020550988305,15.222711565829542,54.69938868926886
+[13Dec2025 03:44:50.991] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -37.167202149632885,15.379463285778257,54.970784868884266
+[13Dec2025 03:44:51.049] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -37.84131171543709,15.536292283621691,55.23579555529329
+[13Dec2025 03:44:51.092] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -38.51844368037803,15.693205857317508,55.49385380675329
+[13Dec2025 03:44:51.149] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -39.19876213376676,15.850205709028643,55.744104090820315
+[13Dec2025 03:44:51.192] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -39.882451540541524,16.0072876174043,55.985501048748915
+[13Dec2025 03:44:51.250] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -40.5696802851528,16.164441622722393,56.21688470002971
+[13Dec2025 03:44:51.294] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -41.26057398577416,16.321652339398554,56.43703733427543
+[13Dec2025 03:44:51.352] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -41.95519623730377,16.478899182946066,56.644726123381076
+[13Dec2025 03:44:51.395] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -42.65353748995153,16.636157181821545,56.838735195653214
+[13Dec2025 03:44:51.455] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -43.35550837064466,16.79339766140879,57.01788904901042
+[13Dec2025 03:44:51.495] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -44.0609378935161,16.950589227500473,57.18106959399529
+[13Dec2025 03:44:51.553] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -44.76957435794259,17.107698674011317,57.32722799751417
+[13Dec2025 03:44:51.595] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -45.48108867589008,17.264691920346394,57.45539258886902
+[13Dec2025 03:44:51.652] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -46.19507876416333,17.421534692843892,57.56467367593149
+[13Dec2025 03:44:51.696] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -46.911076150297276,17.57819354242227,57.65426604156744
+[13Dec2025 03:44:51.752] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -47.62855194179667,17.734636385790566,57.72344957227949
+[13Dec2025 03:44:51.796] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -48.346923654205284,17.89083311087458,57.77158851102405
+[13Dec2025 03:44:51.841] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -49.065561381401835,18.046755852447916,57.7981298313378
+[13Dec2025 03:44:51.899] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -49.78379543584799,18.202379700408443,57.802600661482245
+[13Dec2025 03:44:51.942] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -50.50092119057729,18.357682520890535,57.78460550913013
+[13Dec2025 03:44:51.999] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -51.21620583675235,18.51264539041844,57.743822839664006
+[13Dec2025 03:44:52.042] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -51.928893376170095,18.66725255302572,57.68000171853589
+[13Dec2025 03:44:52.101] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -52.63826783863442,18.821491431345834,57.593150624919474
+[13Dec2025 03:44:52.144] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -53.34379467226893,18.975359758485496,57.483888306530446
+[13Dec2025 03:44:52.201] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -54.045121267588684,19.12886979102268,57.35323820504004
+[13Dec2025 03:44:52.244] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -54.742059025772505,19.28204812261714,57.202475015754715
+[13Dec2025 03:44:52.301] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -55.434560965189576,19.434934381359255,57.03301078218652
+[13Dec2025 03:44:52.344] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -56.12269385083505,19.587577961321983,56.84631362493616
+[13Dec2025 03:44:52.402] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -56.80661160449131,19.74003456837511,56.64385046405391
+[13Dec2025 03:44:52.445] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -57.48653237506153,19.892363334316627,56.4270474633725
+[13Dec2025 03:44:52.503] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -58.16271695628393,20.04462373066525,56.19726476836297
+[13Dec2025 03:44:52.547] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -58.83545225887883,20.196873511280472,55.955780570269894
+[13Dec2025 03:44:52.604] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -59.505037604589916,20.349167037537654,55.70378260463144
+[13Dec2025 03:44:52.647] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -60.17177361111362,20.501553958516013,55.442365003097564
+[13Dec2025 03:44:52.705] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -60.83595389607092,20.654078381659076,55.17252865057503
+[13Dec2025 03:44:52.747] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -61.49786032158511,20.80677885165477,54.895183386228155
+[13Dec2025 03:44:52.792] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -62.15775855051447,20.959688144028917,54.61115243904129
+[13Dec2025 03:44:52.851] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -62.815895368216616,21.112833332184522,54.32117780535219
+[13Dec2025 03:44:52.894] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -63.472545170505214,21.26604187658134,54.02590230990717
+[13Dec2025 03:44:52.951] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -64.1280737225901,21.418769684264134,53.72584353401538
+[13Dec2025 03:44:52.994] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -64.78291091889389,21.570229324194372,53.421412374523015
+[13Dec2025 03:44:53.053] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -65.43752430318011,21.719485531532513,53.112931846452454
+[13Dec2025 03:44:53.097] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -66.09239598538886,21.86552517223481,52.80065447797108
+[13Dec2025 03:44:53.154] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -66.74800281668286,22.007307009899534,52.484778184932054
+[13Dec2025 03:44:53.197] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -67.40480180886482,22.143796556513593,52.16545931951964
+[13Dec2025 03:44:53.255] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -68.0632181369997,22.273988957525432,51.84282410070409
+[13Dec2025 03:44:53.298] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -68.72363676635825,22.396923243298374,51.51697789607323
+[13Dec2025 03:44:53.355] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -69.38639680524227,22.51169011456048,51.188012771957005
+[13Dec2025 03:44:53.400] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -70.05178866475273,22.61679789013769,50.85601313136823
+[13Dec2025 03:44:53.443] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -70.72006407452363,22.710380580416654,50.52105445360462
+[13Dec2025 03:44:53.500] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -71.39148208830272,22.791387006687557,50.183183189247416
+[13Dec2025 03:44:53.543] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -72.06631933155666,22.859363093884753,49.84241437849562
+[13Dec2025 03:44:53.601] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -72.74488524807543,22.914284439591313,49.498726467750885
+[13Dec2025 03:44:53.643] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: C.202 Folgore (vehicle of TheAstoria1090) moved too quickly! -73.42756508928528,22.956426820029066,49.15204152030947
+[13Dec2025 03:45:12.293] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Crowdante53 moved wrongly!
+[13Dec2025 03:46:41.257] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: AcidD_x moved wrongly!
+[13Dec2025 03:46:55.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Creative Mode]
+[13Dec2025 03:47:39.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Survival Mode]
+[13Dec2025 03:47:41.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crowdante53 was slain by Sea Serpent
+[13Dec2025 03:47:41.495] [Server thread/INFO] [gravestone/]: The death ID of player Crowdante53 is 272f344a-2196-4e36-b840-0e19b4233396
+[13Dec2025 03:48:09.378] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=239, y=161, z=102}
+[13Dec2025 03:48:10.423] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=238, y=159, z=101}
+[13Dec2025 03:48:10.927] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=240, y=160, z=102}
+[13Dec2025 03:48:11.127] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=239, y=160, z=102}
+[13Dec2025 03:48:11.178] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=237, y=160, z=102}
+[13Dec2025 03:48:12.083] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=233, y=160, z=100}
+[13Dec2025 03:48:12.284] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=233, y=161, z=101}
+[13Dec2025 03:48:12.381] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=234, y=160, z=101}
+[13Dec2025 03:48:12.639] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=234, y=158, z=100}
+[13Dec2025 03:48:12.836] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=235, y=157, z=99}
+[13Dec2025 03:48:12.879] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=236, y=157, z=99}
+[13Dec2025 03:48:13.086] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=236, y=157, z=99}
+[13Dec2025 03:48:15.482] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=235, y=161, z=102}
+[13Dec2025 03:48:15.531] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=234, y=160, z=101}
+[13Dec2025 03:48:16.084] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=233, y=160, z=100}
+[13Dec2025 03:48:22.888] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=241, y=161, z=101}
+[13Dec2025 03:48:23.733] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=241, y=161, z=101}
+[13Dec2025 03:48:24.435] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=241, y=161, z=101}
+[13Dec2025 03:48:24.620] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=241, y=161, z=101}
+[13Dec2025 03:48:24.685] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=240, y=160, z=102}
+[13Dec2025 03:48:24.841] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=239, y=158, z=100}
+[13Dec2025 03:48:24.938] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=238, y=158, z=100}
+[13Dec2025 03:48:25.383] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=237, y=158, z=101}
+[13Dec2025 03:48:25.550] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=235, y=158, z=100}
+[13Dec2025 03:48:26.547] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=233, y=160, z=100}
+[13Dec2025 03:48:27.077] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=233, y=160, z=100}
+[13Dec2025 03:48:27.341] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=233, y=160, z=100}
+[13Dec2025 03:48:29.294] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=233, y=155, z=96}
+[13Dec2025 03:48:30.143] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=232, y=153, z=94}
+[13Dec2025 03:48:30.449] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=233, y=153, z=94}
+[13Dec2025 03:48:30.637] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=234, y=153, z=94}
+[13Dec2025 03:48:31.099] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=235, y=154, z=94}
+[13Dec2025 03:49:12.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Teleported TheAstoria1090 to AcidD_x]
+[13Dec2025 03:49:30.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AcidD_x tried to swim in lava
+[13Dec2025 03:49:30.325] [Server thread/INFO] [gravestone/]: The death ID of player AcidD_x is 074a92fa-b9bf-40df-82a5-72e557ef8096
+[13Dec2025 03:50:06.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Teleported TheAstoria1090 to AcidD_x]
+[13Dec2025 03:50:24.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Adventure Mode]
+[13Dec2025 03:50:29.889] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=429, y=62, z=61} BlockPos{x=232, y=173, z=110}
+[13Dec2025 03:50:31.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Creative Mode]
+[13Dec2025 03:51:12.398] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: TheAstoria1090 moved wrongly!
+[13Dec2025 03:51:55.088] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=241, y=161, z=101}
+[13Dec2025 03:51:55.577] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=242, y=162, z=101}
+[13Dec2025 03:51:59.187] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=242, y=162, z=101}
+[13Dec2025 03:51:59.932] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=241, y=161, z=101}
+[13Dec2025 03:52:07.100] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: TheAstoria1090 moved wrongly!
+[13Dec2025 03:52:48.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Teleported Crowdante53 to AcidD_x]
+[13Dec2025 03:53:24.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Teleported Crowdante53 to AcidD_x]
+[13Dec2025 03:54:25.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Survival Mode]
+[13Dec2025 03:54:26.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crowdante53 was turned into gorgonzola by Gorgon
+[13Dec2025 03:54:26.514] [Server thread/INFO] [gravestone/]: The death ID of player Crowdante53 is c9c18348-73a2-48e3-9b25-32676c0cef80
+[13Dec2025 03:54:32.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheAstoria1090 was turned to stone by Gorgon
+[13Dec2025 03:54:32.015] [Server thread/INFO] [gravestone/]: The death ID of player TheAstoria1090 is cb357972-3deb-4776-a9b5-d638b95daac0
+[13Dec2025 03:54:34.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AcidD_x was turned into gorgonzola by Gorgon
+[13Dec2025 03:54:34.866] [Server thread/INFO] [gravestone/]: The death ID of player AcidD_x is bc52e5af-94e3-49bf-bf38-282e8d9d643e
+[13Dec2025 03:54:55.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheAstoria1090 fell from a high place
+[13Dec2025 03:54:55.991] [Server thread/INFO] [gravestone/]: The death ID of player TheAstoria1090 is ada60917-987f-4b4c-baec-4d9163e4ac8f
+[13Dec2025 03:55:06.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AcidD_x fell from a high place
+[13Dec2025 03:55:06.807] [Server thread/INFO] [gravestone/]: The death ID of player AcidD_x is c0a5b9e0-6eea-4ab0-a628-d20c2edf4533
+[13Dec2025 03:55:39.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AcidD_x fell from a high place
+[13Dec2025 03:55:39.667] [Server thread/INFO] [gravestone/]: The death ID of player AcidD_x is d5df6f92-9380-482f-bd0a-0a493da42853
+[13Dec2025 03:56:07.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Creative Mode]
+[13Dec2025 03:56:31.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Teleported Crowdante53 to AcidD_x]
+[13Dec2025 03:56:36.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Teleported TheAstoria1090 to AcidD_x]
+[13Dec2025 03:56:57.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheAstoria1090 was annihilated by Crowdante53
+[13Dec2025 03:56:57.529] [Server thread/INFO] [gravestone/]: The death ID of player TheAstoria1090 is e26d04e7-b482-45a5-a231-3860cac7357a
+[13Dec2025 03:57:09.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Teleported Crowdante53 to AcidD_x]
+[13Dec2025 03:57:25.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Teleported TheAstoria1090 to AcidD_x]
+[13Dec2025 03:57:48.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheAstoria1090 was annihilated by Crowdante53
+[13Dec2025 03:57:48.929] [Server thread/INFO] [gravestone/]: The death ID of player TheAstoria1090 is 9eaa0747-00cf-4fb3-a723-b6f43c9f6bdc
+[13Dec2025 03:58:11.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Teleported TheAstoria1090 to AcidD_x]
+[13Dec2025 03:58:24.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crowdante53 was eliminated by TheAstoria1090
+[13Dec2025 03:58:24.141] [Server thread/INFO] [gravestone/]: The death ID of player Crowdante53 is afb0dbad-b264-4b5a-881c-6366bb317475
+[13Dec2025 03:59:05.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crowdante53 fell from a high place
+[13Dec2025 03:59:05.871] [Server thread/INFO] [gravestone/]: The death ID of player Crowdante53 is 1b61285d-6467-4535-b838-708c3fb7751c
+[13Dec2025 04:00:26.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Teleported Crowdante53 to AcidD_x]
+[13Dec2025 04:00:44.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crowdante53 was executed by TheAstoria1090
+[13Dec2025 04:00:44.766] [Server thread/INFO] [gravestone/]: The death ID of player Crowdante53 is 498ca98e-3502-473c-9c51-5368ad7dd4da
+[13Dec2025 04:00:53.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Teleported Crowdante53 to AcidD_x]
+[13Dec2025 04:02:32.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Survival Mode]
+[13Dec2025 04:04:46.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheAstoria1090 was executed by Crowdante53
+[13Dec2025 04:04:46.820] [Server thread/INFO] [gravestone/]: The death ID of player TheAstoria1090 is 2721237c-c311-4541-ad90-fbe7b2c30a9f
+[13Dec2025 04:05:09.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheAstoria1090 fell from a high place
+[13Dec2025 04:05:09.588] [Server thread/INFO] [gravestone/]: The death ID of player TheAstoria1090 is 7ebee01e-8879-4bf6-90e8-6b84e3b848e1
+[13Dec2025 04:05:10.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AcidD_x was decimated by Crowdante53
+[13Dec2025 04:05:10.719] [Server thread/INFO] [gravestone/]: The death ID of player AcidD_x is 9f5e5806-077a-4940-8368-b0623d9a2abd
+[13Dec2025 04:06:11.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AcidD_x fell from a high place
+[13Dec2025 04:06:11.497] [Server thread/INFO] [gravestone/]: The death ID of player AcidD_x is e6c514d3-20ac-45f4-ada3-19d87fdd5688
+[13Dec2025 04:06:52.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AcidD_x fell from a high place
+[13Dec2025 04:06:52.049] [Server thread/INFO] [gravestone/]: The death ID of player AcidD_x is 8fae0035-35a8-460c-bbd6-304436f5955c
+[13Dec2025 04:07:08.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AcidD_x fell from a high place
+[13Dec2025 04:07:08.968] [Server thread/INFO] [gravestone/]: The death ID of player AcidD_x is 82402ec1-a5fd-4040-aec3-5338ab4c837e
+[13Dec2025 04:07:53.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AcidD_x fell from a high place
+[13Dec2025 04:07:53.853] [Server thread/INFO] [gravestone/]: The death ID of player AcidD_x is cf1e9c5d-29b5-4889-bc1a-31cd30c81a91
+[13Dec2025 04:09:18.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AcidD_x was shot by Skeleton
+[13Dec2025 04:09:18.668] [Server thread/INFO] [gravestone/]: The death ID of player AcidD_x is 7dd1b38c-6571-4d11-a61e-bbe17f0e6d3e
+[13Dec2025 04:09:29.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Creative Mode]
+[13Dec2025 04:10:03.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Teleported TheAstoria1090 to AcidD_x]
+[13Dec2025 04:10:31.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crowdante53 has made the advancement [Stone Age]
+[13Dec2025 04:11:21.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Survival Mode]
+[13Dec2025 04:12:06.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AcidD_x was shot by Skeleton
+[13Dec2025 04:12:06.318] [Server thread/INFO] [gravestone/]: The death ID of player AcidD_x is 2a332b69-85e0-4931-afa0-c17c7f8ce7ff
+[13Dec2025 04:12:24.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crowdante53 has made the advancement [Getting an Upgrade]
+[13Dec2025 04:12:34.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AcidD_x was blown up by Creeper
+[13Dec2025 04:12:34.172] [Server thread/INFO] [gravestone/]: The death ID of player AcidD_x is 387e415a-7c94-4fdd-b999-a6a1b79044ea
+[13Dec2025 04:12:45.971] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Creative Mode]
+[13Dec2025 04:13:21.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Teleported Crowdante53 to AcidD_x]
+[13Dec2025 04:13:34.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Survival Mode]
+[13Dec2025 04:13:46.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crowdante53 was decimated by TheAstoria1090
+[13Dec2025 04:13:46.170] [Server thread/INFO] [gravestone/]: The death ID of player Crowdante53 is 7186ff70-1f94-4e5b-85d3-2c93fbaafe24
+[13Dec2025 04:14:05.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Creative Mode]
+[13Dec2025 04:14:14.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Teleported Crowdante53 to AcidD_x]
+[13Dec2025 04:14:31.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Survival Mode]
+[13Dec2025 04:14:43.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crowdante53 was blown up by Creeper
+[13Dec2025 04:14:43.620] [Server thread/INFO] [gravestone/]: The death ID of player Crowdante53 is 44c38225-08fa-4bf3-aad4-7fc51083b985
+[13Dec2025 04:15:04.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crowdante53 fell from a high place
+[13Dec2025 04:15:04.244] [Server thread/INFO] [gravestone/]: The death ID of player Crowdante53 is b633074a-2c65-4c89-9862-59613e20ef59
+[13Dec2025 04:15:14.662] [Server thread/INFO] [jeg/]: Registered the following Factions: [night_of_the_undead|1|minecraft:zombie,minecraft:zombie_villager,minecraft:husk|jeg:custom_smg,jeg:waterpipe_shotgun|jeg:revolver|jeg:double_barrel_shotgun, the_rattlers|2|minecraft:skeleton,minecraft:stray|jeg:custom_smg|jeg:semi_auto_rifle|jeg:bolt_action_rifle,jeg:semi_auto_rifle, nosy_business|3|minecraft:pillager,minecraft:vindicator|jeg:pump_shotgun|jeg:semi_auto_rifle,jeg:assault_rifle|jeg:repeating_shotgun,jeg:service_rifle, bad_piggies|2|minecraft:piglin,minecraft:piglin_brute|jeg:double_barrel_shotgun,jeg:waterpipe_shotgun|jeg:assault_rifle,jeg:semi_auto_rifle|jeg:hollenfire_mk2, hell_hogs|3|minecraft:zombified_piglin,minecraft:wither_skeleton|jeg:custom_smg,jeg:waterpipe_shotgun,jeg:double_barrel_shotgun|jeg:assault_rifle,jeg:semi_auto_rifle|jeg:soulhunter_mk2, lost_souls|3|jeg:ghoul|jeg:waterpipe_shotgun,jeg:revolver|jeg:custom_smg,jeg:assault_rifle,jeg:semi_auto_rifle|jeg:blossom_rifle,jeg:service_rifle,jeg:infantry_rifle]
+[13Dec2025 04:15:59.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crowdante53 was shot by Skeleton
+[13Dec2025 04:15:59.770] [Server thread/INFO] [gravestone/]: The death ID of player Crowdante53 is 78aa34ce-552b-407b-af10-baf1715e8520
+[13Dec2025 04:16:07.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Creative Mode]
+[13Dec2025 04:16:17.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crowdante53 fell from a high place
+[13Dec2025 04:16:17.094] [Server thread/INFO] [gravestone/]: The death ID of player Crowdante53 is 11198989-f764-48cb-a709-f3094db5e312
+[13Dec2025 04:17:09.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Survival Mode]
+[13Dec2025 04:17:35.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AcidD_x was decimated by TheAstoria1090
+[13Dec2025 04:17:35.073] [Server thread/INFO] [gravestone/]: The death ID of player AcidD_x is d1b9ca52-87c0-4b87-ad5f-c8b8a8436ab4
+[13Dec2025 04:17:44.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Creative Mode]
+[13Dec2025 04:17:58.231] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemPacket@645b2878, suppressing error
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.phys.EntityHitResult.m_82443_()" because "entityHitResult" is null
+	at ttv.migami.jeg.item.AmmoItem.getTargetEntity(AmmoItem.java:63) ~[JustEnoughGuns-0.13.2-1.20.1.jar%23159!/:0.13.2-1.20.1]
+	at ttv.migami.jeg.item.AmmoItem.m_7203_(AmmoItem.java:42) ~[JustEnoughGuns-0.13.2-1.20.1.jar%23159!/:0.13.2-1.20.1]
+	at net.minecraft.world.item.ItemStack.m_41682_(ItemStack.java:275) ~[server-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_6261_(ServerPlayerGameMode.java:286) ~[server-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_5760_(ServerGamePacketListenerImpl.java:1085) ~[server-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.network.protocol.game.ServerboundUseItemPacket.m_5797_(ServerboundUseItemPacket.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.network.protocol.game.ServerboundUseItemPacket.m_5797_(ServerboundUseItemPacket.java:7) ~[server-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13Dec2025 04:18:48.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Teleported Crowdante53 to AcidD_x]
+[13Dec2025 04:20:02.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Survival Mode]
+[13Dec2025 04:21:21.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AcidD_x was doomed to fall by Crowdante53
+[13Dec2025 04:21:21.395] [Server thread/INFO] [gravestone/]: The death ID of player AcidD_x is f27bd009-0691-4586-b216-4ee3f787209c
+[13Dec2025 04:21:46.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Creative Mode]
+[13Dec2025 04:21:48.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheAstoria1090 was executed by Crowdante53
+[13Dec2025 04:21:48.372] [Server thread/INFO] [gravestone/]: The death ID of player TheAstoria1090 is d81f790d-0fca-49a0-870a-efec120fa377
+[13Dec2025 04:22:18.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Teleported TheAstoria1090 to AcidD_x]
+[13Dec2025 04:22:39.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Survival Mode]
+[13Dec2025 04:24:06.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheAstoria1090 was taken down by Crowdante53
+[13Dec2025 04:24:06.368] [Server thread/INFO] [gravestone/]: The death ID of player TheAstoria1090 is 2fdf48e2-f83f-4094-94a0-907a1329edfc
+[13Dec2025 04:25:03.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AcidD_x was decimated by Crowdante53
+[13Dec2025 04:25:03.618] [Server thread/INFO] [gravestone/]: The death ID of player AcidD_x is b4b883f1-b16e-4826-a968-92be6ad2649f
+[13Dec2025 04:25:31.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Creative Mode]
+[13Dec2025 04:25:41.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheAstoria1090 was taken down by Crowdante53
+[13Dec2025 04:25:41.318] [Server thread/INFO] [gravestone/]: The death ID of player TheAstoria1090 is e7e1d682-4f29-4821-99b1-b460e2d7b032
+[13Dec2025 04:25:52.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Survival Mode]
+[13Dec2025 04:26:44.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AcidD_x was executed by Crowdante53
+[13Dec2025 04:26:44.768] [Server thread/INFO] [gravestone/]: The death ID of player AcidD_x is 63ad10b9-7c5d-4813-82da-0bae46192e81
+[13Dec2025 04:26:47.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheAstoria1090 was blown up by Creeper
+[13Dec2025 04:26:47.717] [Server thread/INFO] [gravestone/]: The death ID of player TheAstoria1090 is 1dff3298-7b76-4764-a12e-1bb2b55b0817
+[13Dec2025 04:27:05.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Creative Mode]
+[13Dec2025 04:27:22.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheAstoria1090 fell from a high place
+[13Dec2025 04:27:22.774] [Server thread/INFO] [gravestone/]: The death ID of player TheAstoria1090 is f577ac1e-6321-4486-b3ea-38610e0ea92d
+[13Dec2025 04:27:39.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Teleported TheAstoria1090 to AcidD_x]
+[13Dec2025 04:28:01.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheAstoria1090 was blown up by Creeper
+[13Dec2025 04:28:01.118] [Server thread/INFO] [gravestone/]: The death ID of player TheAstoria1090 is 3229c2b8-6923-4f42-b537-e14a46e00e6f
+[13Dec2025 04:28:10.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheAstoria1090 fell from a high place
+[13Dec2025 04:28:10.873] [Server thread/INFO] [gravestone/]: The death ID of player TheAstoria1090 is bba513cd-7662-410b-b472-aff2a0e3926c
+[13Dec2025 04:28:20.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Teleported TheAstoria1090 to AcidD_x]
+[13Dec2025 04:28:36.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Survival Mode]
+[13Dec2025 04:29:13.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AcidD_x was blown up by Creeper
+[13Dec2025 04:29:13.623] [Server thread/INFO] [gravestone/]: The death ID of player AcidD_x is 03885f04-9424-4129-b411-ba7bd092c04d
+[13Dec2025 04:29:21.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Creative Mode]
+[13Dec2025 04:29:31.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheAstoria1090 was annihilated by Crowdante53
+[13Dec2025 04:29:31.769] [Server thread/INFO] [gravestone/]: The death ID of player TheAstoria1090 is 88ffb9b1-2fe4-43e1-859e-88d9a5898102
+[13Dec2025 04:30:00.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Teleported TheAstoria1090 to AcidD_x]
+[13Dec2025 04:30:15.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheAstoria1090 was doomed to fall by Skeleton
+[13Dec2025 04:30:15.319] [Server thread/INFO] [gravestone/]: The death ID of player TheAstoria1090 is e52fa5be-50d3-4629-b3aa-da99fca37dcb
+[13Dec2025 04:30:28.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Teleported TheAstoria1090 to AcidD_x]
+[13Dec2025 04:31:54.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Survival Mode]
+[13Dec2025 04:32:08.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Creative Mode]
+[13Dec2025 04:32:43.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Survival Mode]
+[13Dec2025 04:33:12.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crowdante53 was annihilated by AcidD_x
+[13Dec2025 04:33:12.419] [Server thread/INFO] [gravestone/]: The death ID of player Crowdante53 is a4e28d7e-dcc8-45c1-98f6-583e6f85809f
+[13Dec2025 04:33:21.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AcidD_x was blown up by Creeper
+[13Dec2025 04:33:21.869] [Server thread/INFO] [gravestone/]: The death ID of player AcidD_x is fd62d446-3714-4a19-9830-ba9831b3d74d
+[13Dec2025 04:33:21.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Creative Mode]
+[13Dec2025 04:33:49.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Teleported Crowdante53 to AcidD_x]
+[13Dec2025 04:33:58.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crowdante53 was annihilated by TheAstoria1090
+[13Dec2025 04:33:58.070] [Server thread/INFO] [gravestone/]: The death ID of player Crowdante53 is 416f2197-b426-41e2-a91f-f70f72ec70a5
+[13Dec2025 04:34:10.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crowdante53 fell from a high place
+[13Dec2025 04:34:10.721] [Server thread/INFO] [gravestone/]: The death ID of player Crowdante53 is 16b405ea-8aa9-420a-a2c9-5f26c45bc8c3
+[13Dec2025 04:34:23.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Teleported Crowdante53 to AcidD_x]
+[13Dec2025 04:34:55.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Survival Mode]
+[13Dec2025 04:35:49.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crowdante53 was annihilated by AcidD_x
+[13Dec2025 04:35:49.569] [Server thread/INFO] [gravestone/]: The death ID of player Crowdante53 is d1932bd7-a8a4-4425-902d-0c74b13a379c
+[13Dec2025 04:35:58.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Creative Mode]
+[13Dec2025 04:36:08.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Survival Mode]
+[13Dec2025 04:36:13.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Creative Mode]
+[13Dec2025 04:36:15.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Teleported Crowdante53 to AcidD_x]
+[13Dec2025 04:36:16.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crowdante53 fell from a high place
+[13Dec2025 04:36:16.056] [Server thread/INFO] [gravestone/]: The death ID of player Crowdante53 is 505a7a60-f20d-4162-89d2-2346f006caeb
+[13Dec2025 04:36:22.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Teleported Crowdante53 to AcidD_x]
+[13Dec2025 04:36:39.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Survival Mode]
+[13Dec2025 04:36:44.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheAstoria1090 was executed by AcidD_x
+[13Dec2025 04:36:44.799] [Server thread/INFO] [gravestone/]: The death ID of player TheAstoria1090 is 6b49fa33-60ba-48fb-a266-98af83c148fe
+[13Dec2025 04:37:00.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AcidD_x was executed by Crowdante53
+[13Dec2025 04:37:00.217] [Server thread/INFO] [gravestone/]: The death ID of player AcidD_x is 34d9c0b8-b97c-4372-953a-6316a01c6ded
+[13Dec2025 04:37:11.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Set own game mode to Creative Mode]
+[13Dec2025 04:37:43.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Teleported Crowdante53 to AcidD_x]
+[13Dec2025 04:37:54.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AcidD_x: Teleported Crowdante53 to AcidD_x]
+[13Dec2025 04:39:12.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheAstoria1090 was decimated by Crowdante53
+[13Dec2025 04:39:12.869] [Server thread/INFO] [gravestone/]: The death ID of player TheAstoria1090 is 2238510f-b5e7-4b1e-b361-86caad5ae722
